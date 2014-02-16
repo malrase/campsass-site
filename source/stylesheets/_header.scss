@@ -1,0 +1,27 @@
+.pop-stripe {
+  height: .25em;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #c69), color-stop(8.33333%, #c69), color-stop(8.33333%, #b37399), color-stop(16.66667%, #b37399), color-stop(16.66667%, #998099), color-stop(25%, #998099), color-stop(25%, #699), color-stop(33.33333%, #699), color-stop(33.33333%, #d2e1dd), color-stop(41.66667%, #d2e1dd), color-stop(41.66667%, #fff), color-stop(50%, #fff), color-stop(50%, #f2ece4), color-stop(58.33333%, #f2ece4), color-stop(58.33333%, #e1d7d2), color-stop(66.66667%, #e1d7d2), color-stop(66.66667%, #dadbdf), color-stop(75%, #dadbdf), color-stop(75%, #808c99), color-stop(83.33333%, #808c99), color-stop(83.33333%, #6b717f), color-stop(91.66667%, #6b717f), color-stop(91.66667%, #036), color-stop(100%, #036));
+  background-image: -webkit-linear-gradient(left, #c69 0%, #c69 8.33333%, #b37399 8.33333%, #b37399 16.66667%, #998099 16.66667%, #998099 25%, #699 25%, #699 33.33333%, #d2e1dd 33.33333%, #d2e1dd 41.66667%, #fff 41.66667%, #fff 50%, #f2ece4 50%, #f2ece4 58.33333%, #e1d7d2 58.33333%, #e1d7d2 66.66667%, #dadbdf 66.66667%, #dadbdf 75%, #808c99 75%, #808c99 83.33333%, #6b717f 83.33333%, #6b717f 91.66667%, #036 91.66667%, #036 100%);
+  background-image: -moz-linear-gradient(left, #c69 0%, #c69 8.33333%, #b37399 8.33333%, #b37399 16.66667%, #998099 16.66667%, #998099 25%, #699 25%, #699 33.33333%, #d2e1dd 33.33333%, #d2e1dd 41.66667%, #fff 41.66667%, #fff 50%, #f2ece4 50%, #f2ece4 58.33333%, #e1d7d2 58.33333%, #e1d7d2 66.66667%, #dadbdf 66.66667%, #dadbdf 75%, #808c99 75%, #808c99 83.33333%, #6b717f 83.33333%, #6b717f 91.66667%, #036 91.66667%, #036 100%);
+  background-image: -o-linear-gradient(left, #c69 0%, #c69 8.33333%, #b37399 8.33333%, #b37399 16.66667%, #998099 16.66667%, #998099 25%, #699 25%, #699 33.33333%, #d2e1dd 33.33333%, #d2e1dd 41.66667%, #fff 41.66667%, #fff 50%, #f2ece4 50%, #f2ece4 58.33333%, #e1d7d2 58.33333%, #e1d7d2 66.66667%, #dadbdf 66.66667%, #dadbdf 75%, #808c99 75%, #808c99 83.33333%, #6b717f 83.33333%, #6b717f 91.66667%, #036 91.66667%, #036 100%);
+  background-image: linear-gradient(left, #cc6699 0%,#cc6699 8.33333%,#b37399 8.33333%,#b37399 16.66667%,#998099 16.66667%,#998099 25%,#669999 25%,#669999 33.33333%,#d2e1dd 33.33333%,#d2e1dd 41.66667%,#ffffff 41.66667%,#ffffff 50%,#f2ece4 50%,#f2ece4 58.33333%,#e1d7d2 58.33333%,#e1d7d2 66.66667%,#dadbdf 66.66667%,#dadbdf 75%,#808c99 75%,#808c99 83.33333%,#6b717f 83.33333%,#6b717f 91.66667%,#003366 91.66667%,#003366 100%);
+}
+header {
+  height: 50px;
+  h2 {
+    float: left;
+  }
+  .menu {
+    float: right;
+    #menu-button {
+      @media screen and (min-width: $small-break) {
+        display: none;
+      }
+    }
+    .links {
+      @media screen and (max-width: $small-break) {
+        display: none;
+      }
+    }
+  }
+}

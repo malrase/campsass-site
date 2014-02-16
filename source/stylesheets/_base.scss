@@ -1,0 +1,40 @@
+$break: 770px;
+$small-break: 470px;
+
+h1 {}
+
+h2, a > h2 {
+  color: $pale-sky;
+}
+
+h3 {
+  margin: 0;
+  color: $midnight-blue;
+}
+
+a {
+  color: $bouquet;
+  text-decoration: none;
+  &:visited {
+    color: $venus;
+  }
+  &:hover {
+    color: $midnight-blue;
+  }
+}
+
+.intro {
+  background: $iron;
+  text-align: center;
+  .logo {
+    height: 200px;
+    width: 200px;
+    background: $hopbush;
+    margin: auto;
+  }
+}
+
+.section {
+  margin: 10px;
+  display: inline-block;
+}
