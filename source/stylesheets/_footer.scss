@@ -1,0 +1,13 @@
+footer {
+  background: $midnight-blue;
+  padding: 40px;
+  a {
+    margin: 10px;
+    &:hover {
+      color: $hopbush;
+    }
+  }
+  .links {
+    text-align: center;
+  }
+}

@@ -1,14 +1,8 @@
 .venue {
   .map {
-    background: $patina;
-    width: 300px;
-    height: 300px;
-    float: left;
-    margin-right: 10px;
-  }
-  .directions {
-    @media screen and (max-width: $break) {
-      float: left;
+    @media screen and (min-width: $small-break) {
+      margin-left: 70px;
     }
   }
+
 }

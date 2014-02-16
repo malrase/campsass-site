@@ -1,13 +1,10 @@
 .speaker {
   float: left;
-  margin-bottom: 10px;
-  @media screen and (min-width: $break) {
-    width: 50%;
-  }
+  margin-bottom: 20px;
   .pic {
-    width: 80px;
-    height: 90px;
-    background: $bouquet;
+    width: 100px;
+    height: 100px;
+    background: $hopbush;
     float: left;
     margin-right: 10px;
   }
