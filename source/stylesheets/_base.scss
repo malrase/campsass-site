@@ -65,10 +65,10 @@ a {
 }
 
 .panel {
-  padding: 20px 0;
-  box-shadow: $regent-grey 0px 1px 1px;
+  padding: 20px 0 40px;
   &.ev {
     background: $patina;
+    box-shadow: $regent-grey 0px 1px 1px;
     h2, h3, div {
       color: $white;
     }
