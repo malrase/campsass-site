@@ -1,0 +1,17 @@
+.section.tickets {
+  #bpt_eventbody {
+    @media screen and (max-width: $small-break) {
+      display: none;
+    }
+  }
+  .mobile_tickets {
+    @media screen and (min-width: $small-break) {
+      display: none;
+    }
+    img {
+      margin: auto;
+      display: block;
+      width: 182px;
+    }
+  }
+}

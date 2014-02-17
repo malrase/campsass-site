@@ -1,10 +1,14 @@
 footer {
-  background: $midnight-blue;
+  background: $hopbush;
   padding: 40px;
   a {
     margin: 10px;
+    color: $white;
+    &:visited {
+      color: $white;
+    }
     &:hover {
-      color: $hopbush;
+      color: $iron;
     }
   }
   .links {

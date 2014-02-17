@@ -1,10 +1,10 @@
 .speaker {
   float: left;
   margin-bottom: 20px;
-  .pic {
+  .pic > img {
     width: 100px;
     height: 100px;
-    background: $hopbush;
+    border: 2px solid $hopbush;
     float: left;
     margin-right: 10px;
   }

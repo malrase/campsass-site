@@ -1,3 +1,18 @@
 .section.tickets
   %a{:name=>"tickets"}
     %h2 Tickets
+  %link{:rel=>"stylesheet", :type=>"text/css", :href=>"http://www.brownpapertickets.com/widget.css"}
+  #bpt_eventbody
+    %center
+      %br
+      %br
+      Brown Paper Tickets Ticket Widget Loading...
+      %br
+      %br
+      #{link_to "Click Here", "http://www.brownpapertickets.com/event/572612"}to visit the Brown Paper Tickets event page.
+    %br
+    %br
+    %script{:src=>"http://www.brownpapertickets.com/eventwidget.js?event=572612&nodescription=1&notitle=1", :type=>"text/javascript", :language=>"javascript"}
+    %script{:src=>"http://www.brownpapertickets.com/widget.js?event=572612", :type=>"text/javascript", :language=>"javascript"}
+  %a{:class=>"mobile_tickets", :href=>"http://www.brownpapertickets.com/event/572612"}
+    %img{:src=>"http://www.brownpapertickets.com/g/6/BPT_buy_tickets_large.png", :width=>"182px", :height=>"92px", :border=>"0"}
