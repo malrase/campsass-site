@@ -16,7 +16,7 @@ h3 {
 }
 
 body {
-  color: #484c55;
+  color: darken($pale-sky, 15%);
 }
 
 a {
@@ -33,6 +33,7 @@ a {
 .intro {
   background: $hopbush;
   text-align: center;
+  box-shadow: $venus 0px 1px 1px;
   .logo {
     // height: 200px;
     // width: 200px;
@@ -63,6 +64,20 @@ a {
   }
 }
 
+.panel {
+  padding: 20px 0;
+  box-shadow: $regent-grey 0px 1px 1px;
+  &.ev {
+    background: $patina;
+    h2, h3, div {
+      color: $white;
+    }
+    a {
+      color: $iron;
+      &:hover { color: $pale-sky;}
+    }
+  }
+}
 .section {
   margin: 10px auto;
   width: 500px;
