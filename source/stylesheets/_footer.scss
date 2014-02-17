@@ -1,8 +1,9 @@
 footer {
   background: $hopbush;
   padding: 40px;
+  text-align: center;
+  color: $iron;
   a {
-    margin: 10px;
     color: $white;
     &:visited {
       color: $white;
@@ -11,7 +12,7 @@ footer {
       color: $iron;
     }
   }
-  .links {
-    text-align: center;
+  .links a {
+    margin: 10px;
   }
 }
