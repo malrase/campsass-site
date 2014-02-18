@@ -31,7 +31,11 @@ a {
   &.what {
     padding: 20px 0 0;
   }
-
+  &.speakers {
+    @media screen and (min-width: $small-break) {
+      padding-bottom: 0px;
+    }
+  }
   &.ev {
     background: $patina;
     box-shadow: $regent-grey 0px 1px 1px;

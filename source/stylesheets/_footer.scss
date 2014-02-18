@@ -1,8 +1,25 @@
 footer {
   background: $hopbush;
-  padding: 40px;
   text-align: center;
   color: $iron;
+  padding: 15px;
+  font-size: 12px;
+  .links > span {
+    margin: 16px;
+  }
+  p { margin: 5px;}
+  @media screen and (min-width: 450px) {
+    font-size: inherit;
+    padding: 40px;
+    .links > span { margin: 0; }
+    .links > span:not(:last-child) {
+      &:after {
+        content: "|";
+        margin: 20px;
+        color: $nebula;
+      }
+    }
+  }
   a {
     color: $white;
     &:visited {
@@ -11,8 +28,5 @@ footer {
     &:hover {
       color: $iron;
     }
-  }
-  .links a {
-    margin: 10px;
   }
 }
