@@ -2,16 +2,61 @@
 <html>
   <head>
     <meta charset="utf-8">
-    
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <!-- Use title if it's in the page YAML frontmatter -->
+
     <title><%= current_page.data.title || "Camp Sass" %></title>
-    
+
+    <!-- 
+      Oh my god. Are you here reading the source?
+      Ugh, you are such a nerd. Of course we used Sass! And no,
+      the markup is not all that clean. We had to get this site up FAST!
+
+      I think we even nested more than 2 selectors! NOOOO!!
+
+      You should really get a hobby. Oh wait, this is your hobby? I
+      guess its mine too because I sit here in my apartment typing
+      into a comment section that only people as nerdy and pedantic
+      as myself will read. *sigh* Also 
+
+      Here, I'll save you some time, this is a link to the repo for this
+      site: https://github.com/malrase/campsass-site
+
+      If anything is wrong with our wraps, vertical rhythm, retina icons,
+      png compression, grammar, spacing, trapped whitespace, responsiveness,
+      sushi rolling abilities, or nesting... then please follow the
+      steps below. These are called the "Hampton's Open Source Feedback Process"
+
+      HAMPTON'S OPEN SOURCE FEEDBACK PROTOCOL
+      If a issue has been found in a project, determine the following:
+        A) Is it a small issue (grammar, etc)?
+            Answer: Fix it and send in a pull request
+        B) Is it a feature that you wish existed?
+            Answer: Add it and send in a pull request. Add tests if 
+            applicable. Also, explain why the feature is important.
+        C) Is it a major bug?
+            Answer: Detail the issue with simple, clear test cases
+            and submit a bug report. Then, try and fix it yourself.
+        D) I have critical design feedback!
+            Answer: Fix it and send in a pull request
+        E) But, I don't want to do any work!
+            Answer: Fuck off and die. It's people like you that kill
+            open source and make doing great work harder for the rest
+            of us that want to pitch in with real hours, real work,
+            and real committment to make the world better.
+
+      Okay, good! Now we've got that cleared up.
+
+      Special thanks for this site go to @malrase and @smithschwartz
+      for being badass and helping. Oh, we use middleman for it too.
+
+      Love and Kisses,
+      hampton. (@hcatlin)
+
+      PS: You should totally come to CampSass!
+
+    -->    
     <%= stylesheet_link_tag "normalize", "main" %>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <%= javascript_include_tag  "all" %>
   </head>
   
   <body class="<%= page_classes %>">
