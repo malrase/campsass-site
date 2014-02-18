@@ -4,7 +4,8 @@
   .pic > img {
     width: 100px;
     height: 100px;
-    border: 2px solid $hopbush;
+    border: 5px solid $hopbush;
+    border-radius: 5px;
     float: left;
     margin-right: 10px;
   }

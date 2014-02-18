@@ -6,23 +6,17 @@
     .date
       April 19th, 2014
     .blurb
-      One-day, one-track SF Sass conf
-/ .pop-stripe
+      One-day, one-track Sass conference in San Francisco
 .panel
-  .section.what
-    %h2 What
-    Camp Sass is a one-day, one-track UX/Sass/Design/Hampton conference, meant to be a more casual Sass conference than #{link_to "Sass Conf", "http://sassconf.pgdn.us/", :target=>"blank"}.
-    We're doing it quick, dirty, and hopefully super-insightful and fun. It's all put together and hosted by the creator of Sass, Hampton Catlin.
-/ .pop-stripe
+  =partial "what"
 .panel.ev
   =partial "speakers"
-/ .pop-stripe
 .panel
   =partial "venue"
-/ .pop-stripe
 .panel.ev
   =partial "tickets"
-/ .pop-stripe
 .panel
   =partial "coc"
+.panel.ev
+  =partial "sponsors"
 .pop-stripe

@@ -4,5 +4,8 @@
       margin-left: 70px;
     }
   }
-
+  iframe {
+    border: 5px solid $hopbush;
+    border-radius: 5px;
+  }
 }
