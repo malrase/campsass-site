@@ -1,6 +1,3 @@
-$break: 770px;
-$small-break: 540px;
-
 h1 {}
 
 h2, a > h2 {
@@ -30,46 +27,12 @@ a {
   }
 }
 
-.intro {
-  background: $hopbush;
-  text-align: center;
-  box-shadow: $venus 0px 1px 1px;
-  .logo {
-    // height: 200px;
-    // width: 200px;
-    background: $hopbush;
-    color: white;
-    font-weight: bold;
-    margin: auto;
-    padding: 20px 0 40px;
-    font-family: "Helvetica", sans-serif;
-  }
-  .name {
-    .top {
-      font-size: 145px;
-      letter-spacing: -0.08em;
-    }
-    .btm {
-      font-size: 150px;
-      letter-spacing: -0.06em;
-      margin-top: -50px;
-    }
-  }
-  .date {
-    font-size: 50px;
-    margin-top: -24px;
-  }
-  .blurb {
-    font-size: 14px;
-  }
-  .campfire {
-    height: 300px;
-    width: 300px;
-  }
-}
-
 .panel {
   padding: 20px 0 40px;
+  &.what {
+    padding: 20px 0 0;
+  }
+
   &.ev {
     background: $patina;
     box-shadow: $regent-grey 0px 1px 1px;
@@ -83,11 +46,14 @@ a {
   }
 }
 .section {
-  margin: 10px auto;
-  width: 500px;
+  margin: 10px 100px;
   @media screen and (max-width: $small-break) {
-    width: 300px;
+    margin: 10px 30px;
   }
+  // width: 500px;
+  // @media screen and (max-width: $small-break) {
+  //   width: 300px;
+  // }
 }
 
 .coc .code_modification {

@@ -1,11 +1,13 @@
 .venue {
   .map {
-    @media screen and (min-width: $small-break) {
-      margin-left: 70px;
+    @media screen and (max-width: 370px) {
+      margin-left: -25px;
     }
   }
   iframe {
     border: 5px solid $hopbush;
     border-radius: 5px;
+    display: block;
+    margin: 10px auto;
   }
 }
