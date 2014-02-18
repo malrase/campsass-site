@@ -19,6 +19,7 @@ header {
     margin: auto;
     padding: 20px 0 40px;
     font-family: "Helvetica", sans-serif;
+    display: inline-block;
   }
   .name {
     .top {
@@ -51,5 +52,15 @@ header {
     @media screen and (max-width: $small-break) {
       font-size: 9px;
     }
+  }
+  .campfire {
+    background: url('../images/campfire.svg') 0 0 no-repeat;
+    display: inline-block;
+    height: 300px;
+    stroke: #fff;
+    fill: #fff;
+    color: white;
+    //background-color: white;
+    width: 300px;
   }
 }
