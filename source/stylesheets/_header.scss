@@ -7,21 +7,49 @@
   background-image: linear-gradient(left, #cc6699 0%,#cc6699 8.33333%,#b37399 8.33333%,#b37399 16.66667%,#998099 16.66667%,#998099 25%,#669999 25%,#669999 33.33333%,#d2e1dd 33.33333%,#d2e1dd 41.66667%,#ffffff 41.66667%,#ffffff 50%,#f2ece4 50%,#f2ece4 58.33333%,#e1d7d2 58.33333%,#e1d7d2 66.66667%,#dadbdf 66.66667%,#dadbdf 75%,#808c99 75%,#808c99 83.33333%,#6b717f 83.33333%,#6b717f 91.66667%,#003366 91.66667%,#003366 100%);
 }
 header {
-  height: 50px;
-  h2 {
-    float: left;
+  background: $hopbush;
+  text-align: center;
+  box-shadow: $venus 0px 1px 1px;
+  .logo {
+    // height: 200px;
+    // width: 200px;
+    background: $hopbush;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    padding: 20px 0 40px;
+    font-family: "Helvetica", sans-serif;
   }
-  .menu {
-    float: right;
-    #menu-button {
-      @media screen and (min-width: $small-break) {
-        display: none;
+  .name {
+    .top {
+      font-size: 145px;
+      letter-spacing: -0.08em;
+      @media screen and (max-width: $small-break) {
+        font-size: 85px;
       }
     }
-    .links {
+    .btm {
+      font-size: 150px;
+      letter-spacing: -0.06em;
+      margin-top: -50px;
       @media screen and (max-width: $small-break) {
-        display: none;
+        font-size: 88px;
+        margin-top: -31px;
       }
+    }
+  }
+  .date {
+    font-size: 50px;
+    margin-top: -24px;
+    @media screen and (max-width: $small-break) {
+      font-size: 29px;
+      margin-top: -15px;
+    }
+  }
+  .blurb {
+    font-size: 14px;
+    @media screen and (max-width: $small-break) {
+      font-size: 9px;
     }
   }
 }
