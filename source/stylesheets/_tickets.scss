@@ -1,11 +1,14 @@
 .section {
+  div.bpt_ticket_widget {
+    margin: 0px auto;
+  }
   #bpt_eventbody {
-    @media screen and (max-width: $small-break) {
+    @media screen and (max-width: 600px) {
       display: none;
     }
   }
   .mobile_tickets {
-    @media screen and (min-width: $small-break) {
+    @media screen and (min-width: 600px) {
       display: none;
     }
     img {
