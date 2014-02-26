@@ -1,0 +1,16 @@
+.sponsors {
+  img {
+    max-width: 300px;
+    margin-left: 25px;
+    @media screen and (max-width: $small-break) {
+      margin-left: 15px;
+      max-width: 200px;
+    }
+  }
+  .moovweb img {
+    margin-top: 60px;
+  }
+  .popsugar img {
+    margin-top: 50px;
+  }
+}

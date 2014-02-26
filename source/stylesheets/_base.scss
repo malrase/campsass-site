@@ -2,7 +2,7 @@ h1 {}
 
 h2, a > h2 {
   color: $midnight-blue;
-  @media screen and (min-width: $small-break) {
+  @media screen and (min-width: $large-break) {
     margin-left: -15px;
   }
 }
@@ -33,7 +33,7 @@ a {
     padding: 20px 0 0;
   }
   &.speakers {
-    @media screen and (min-width: $small-break) {
+    @media screen and (min-width: $large-break) {
       padding-bottom: 0px;
     }
   }
@@ -51,7 +51,7 @@ a {
 }
 .section {
   margin: 10px 100px;
-  @media screen and (max-width: $small-break) {
+  @media screen and (max-width: $large-break) {
     margin: 10px 30px;
   }
   // width: 500px;

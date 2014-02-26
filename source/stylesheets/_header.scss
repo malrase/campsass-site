@@ -10,22 +10,26 @@ header {
   background: $hopbush;
   text-align: center;
   box-shadow: $venus 0px 1px 1px;
+  padding-top: 10px;
   .logo {
     // height: 200px;
     // width: 200px;
     background: $hopbush;
     color: white;
     font-weight: bold;
-    margin: auto;
+    margin: 0px auto;
     padding: 20px 0 40px;
     font-family: "Helvetica", sans-serif;
     display: inline-block;
+    @media screen and (max-width: $large-break) {
+      padding: 0 0 40px;
+    }
   }
   .name {
     .top {
       font-size: 145px;
       letter-spacing: -0.08em;
-      @media screen and (max-width: $small-break) {
+      @media screen and (max-width: $large-break) {
         font-size: 85px;
       }
     }
@@ -33,7 +37,7 @@ header {
       font-size: 150px;
       letter-spacing: -0.06em;
       margin-top: -50px;
-      @media screen and (max-width: $small-break) {
+      @media screen and (max-width: $large-break) {
         font-size: 88px;
         margin-top: -31px;
       }
@@ -42,14 +46,14 @@ header {
   .date {
     font-size: 50px;
     margin-top: -24px;
-    @media screen and (max-width: $small-break) {
+    @media screen and (max-width: $large-break) {
       font-size: 29px;
       margin-top: -15px;
     }
   }
   .blurb {
     font-size: 14px;
-    @media screen and (max-width: $small-break) {
+    @media screen and (max-width: $large-break) {
       font-size: 9px;
     }
   }
@@ -62,5 +66,11 @@ header {
     color: white;
     //background-color: white;
     width: 300px;
+    @media screen and (max-width: $large-break) {
+      width: 100px;
+      height: 100px;
+      display: block;
+      margin: auto;
+    }
   }
 }

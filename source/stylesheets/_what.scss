@@ -1,13 +1,13 @@
 .what .section {
   .unit {
-    @media screen and (max-width: $small-break) {
+    @media screen and (max-width: $large-break) {
       margin-bottom: 20px;
     }
   }
   .icon-wrap {
     float: left;
     height: 90px;
-    @media screen and (min-width: $small-break) {
+    @media screen and (min-width: $large-break) {
       height: 160px;
     }
   }

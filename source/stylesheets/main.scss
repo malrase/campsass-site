@@ -1,6 +1,8 @@
 @charset "utf-8";
+
+$small-break: 450px;
 $break: 770px;
-$small-break: 850px;
+$large-break: 850px;
 
 @import "toast";
 
@@ -14,3 +16,6 @@ $small-break: 850px;
 @import "speakers";
 @import "venue";
 @import "tickets";
+@import "sponsors";
+
+

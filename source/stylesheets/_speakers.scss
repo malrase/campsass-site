@@ -2,8 +2,7 @@
   margin-bottom: 20px;
   .pic {
     float: left;
-    // height: 200px;
-    @media screen and (min-width: $small-break) {
+    @media screen and (min-width: $large-break) {
       height: 200px;
     }
     > img {

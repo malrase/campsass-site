@@ -71,7 +71,7 @@
 .three-of-five { width: 57%; }
 .four-of-five { width: 77%; }
 
-@media screen and (max-width: $small-break) {
+@media screen and (max-width: $large-break) {
   .grid {
     margin-left: 0;
     max-width: none;
@@ -92,7 +92,7 @@ hr {
 }
 
 
-@media screen and (max-width: $small-break) {
+@media screen and (max-width: $large-break) {
   html {
     font-size: 100%;
   }
