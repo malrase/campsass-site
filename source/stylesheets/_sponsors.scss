@@ -1,6 +1,6 @@
 .sponsors {
   img {
-    max-width: 300px;
+    max-width: 140px;
     margin-left: 25px;
     @media screen and (max-width: $small-break) {
       margin-left: 15px;
@@ -8,9 +8,15 @@
     }
   }
   .moovweb img {
-    margin-top: 60px;
+    margin-top: 15px;
+    @media screen and (max-width: $small-break) {
+      margin-top: 20px;
+    }
   }
   .popsugar img {
-    margin-top: 50px;
+    margin-top: 10px;
+    @media screen and (max-width: $small-break) {
+      margin-top: 20px;
+    }
   }
 }
