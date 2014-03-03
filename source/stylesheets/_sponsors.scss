@@ -10,7 +10,9 @@
     }
   }
   .grid-top {
-    margin-bottom: 30px;
+    @media screen and (min-width: $small-break) {
+      margin-bottom: 30px;
+    }
   }
   .moovweb img {
     margin-top: 15px;
