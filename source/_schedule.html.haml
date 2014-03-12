@@ -3,11 +3,23 @@
     %h2 Schedule
   .segment
     %h3.time
+      10:00am
+    .blurb
+      %a{:href=>"#hampton"}  
+        %h3 Hampton Catlin
+      .title Opening Remarks
+  .segment
+    %h3.time
       10:15am
     .blurb
-      %h3 Chris Eppstein
-      Chris is going to talk about exciting upcoming features in Sass 3.3.
-  .segment
+      %a{:href=>"#chris"}  
+        %h3 Chris Eppstein
+      .title Keynote
+      %span.expand [+]
+      %span.contract [–]
+      .description
+        %p Chris is going to talk about exciting features that have been implemented in Sass 3.3.
+  .segment.break
     %h3.time
       11:00am
     .blurb
@@ -16,8 +28,27 @@
     %h3.time
       11:15am
     .blurb
-      %h3 Two Talks
+      %a{:href=>"#divya"}  
+        %h3 Divya Manian
+      .title Unmasking the GPU: Using Acceleration in CSS
+      %span.expand [+]
+      %span.contract [–]
+      .description
+        %p GPU is a beast that we don't have much info about. I will talk about how browsers use GPU to render CSS animations, transforms and how you can choose wisely when you try to take advantage of them in CSS and common pitfalls.
   .segment
+    %h3.time
+      11:45am
+    .blurb
+      %a{:href=>"#smith"}  
+        %h3 Smith Schwartz
+      .title You Wake Up, Flawless
+      %span.expand [+]
+      %span.contract [–]
+      .description
+        %p Post up, flawless, ridin' round in it, flawless, flossin' on that, flawless, this diamond, flawless, my diamond, flawless, this rock, flawless, my Roc, flawless.
+        %p I woke up like this, I woke up like this. We flawless, ladies tell 'em. I woke up like this, I woke up like this. We flawless, ladies tell 'em
+        %p Say "I look so good tonight" God damn, God damn; Say "I look so good tonight" God damn, God damn, God damn!
+  .segment.lunch
     %h3.time
       12:15pm
     .blurb
@@ -26,8 +57,31 @@
     %h3.time
       01:15pm
     .blurb
-      %h3 Two Talks
+      %a{:href=>"#dale"}  
+        %h3 Dale Sands
+      .title The Building Blocks of UI Development
+      %span.expand [+]
+      %span.contract [–]
+      .description
+        %p As developers we have for all too long been developing solutions from the wrong perspective. Starting from the outside in reduces flexibility, kills reusability and typically paints a developer into a corner.
+        %p Then throw "It must look good on mobile too!"
+        %p SMACSS and BEM are good starts, but what is missing is the full strategy as how to break a design down to it's most basic parts and how to then built that up in a way that is maintainable and scalable. 
+        %p This talk will cover the common mistakes developers and designers make when starting a new project. It will also cover the one of the more popular solutions for maintaing a scaleable Sass folder structure. and give insight as how to best build a project from the inside out.
   .segment
+    %h3.time
+      01:45pm
+    .blurb
+      %a{:href=>"#elyse"}  
+        %h3 Elyse Holladay
+      .title Because Good Code = Good Experiences
+      %span.expand [+]
+      %span.contract [–]
+      .description
+        %p If I say "UX," you probably think about personas, wireframes, and design dark patterns, but this talk isn't about that. This talk is about how your choices as developers make or break the user experience of an app.
+        %p We're not all lucky enough to have a team of copywriters and coding unicorn designers to help us make our site flawless. Luckily, we're not all as bad off as this error message floating around on Twitter:
+        %p "Are you sure you want to cancel this action? Click 'OK' to cancel the current action or 'Cancel' to continue."
+        %p Performance, language, clean, commented and modular code, semantics, interactivity, workflow, and testing are all pieces of the puzzle that is a delightful experience. Everyone who works on your site is responsible for the user experience. We'll discuss some real-world examples that you can do in your day to day job to make your app be all, #{link_to "I woke up like this", "http://data3.whicdn.com/images/91453054/large.gif", :target=>"_blank"}.
+  .segment.break
     %h3.time
       02:15pm
     .blurb
@@ -36,8 +90,29 @@
     %h3.time
       02:30pm
     .blurb
-      %h3 Two Talks
+      %a{:href=>"#aaron"}  
+        %h3 Aaron Leung
+      .title LibSass: a C/C++ Implementation of Sass
+      %span.expand [+]
+      %span.contract [–]
+      .description
+        %p LibSass is a new C/C++ implementation of Sass initiated by Hampton and developed by Aaron. Its design goals are efficiency, portability, and zero dependencies – as such, it runs much faster than the canonical Ruby implementation, and can be easily embedded into any platform that can interface with C/C++ or the commmand-line.
+        %p This talk will provide an overview of the LibSass implementation and how to use it, as well as a quasi-narrative of the various development hurdles – both technological and social – that arose, and how we overcame them.
   .segment
+    %h3.time
+      03:00pm
+    .blurb
+      %a{:href=>"#claudina"}  
+        %h3 Claudina Sarahe
+      .title So You Use Sass? What Gives?
+      %span.expand [+]
+      %span.contract [–]
+      .description
+        %p \O/ w00t! You eat, breathe, love Sass. You have everyone at your company using it. You even write badass Compass extensions and the Internets luv u. And you've managed to do it all without being a Sasshole. 
+        %p Sass-fucking-tastic!
+        %p Yes, Sass is awesome. We love functions, mixins, writing less crappy CSS and finally getting to program as programmers do. What if I told you there's more to Sass than ridiculously easy media queries and harmonious typography? What if I told you that Sass' true power, its true prowess, isn't in its control directives or magical ampersand?  
+        %p Sass is a visionary. This is a talk about the importance of vision(aries) in the context of creating a better web, better products, and a better world.
+  .segment.break
     %h3.time
       03:30pm
     .blurb
@@ -46,8 +121,44 @@
     %h3.time
       04:00pm
     .blurb
-      %h3 Two Talks
+      %a{:href=>"#joe"}  
+        %h3 Joe Lencioni & Henrik Trotzig
+      .title Introducing Diffux
+      %span.expand [+]
+      %span.contract [–]
+      .description
+        %p Are you worried that your style changes will break the current design in unexpected ways? Do you want to show a designer a page you've been working on, before and after your changes? Do you want to be able to quickly look back at how things looked a month or a year ago?
+        %p Modifying styles can be very scary. When was the last time you made one page sparkle only to have another page on the other side of the world unexpectedly break? We need better tools to manage this, and we think we've built one.
+        %p #{link_to "Diffux", "https://github.com/trotzig/diffux", :target=>"_blank"} [dɪˈfjuːz] is a tool that generates and manages visual diffs of web pages so that you can easily see even the subtlest effects of your code modifications.
+        %p After this presentation, you will know how Diffux can save you time and prevent headaches by helping styling problems not affect your production website.
   .segment
+    %h3.time
+      04:30pm
+    .blurb
+      %a{:href=>"#cliff"}
+        %h3 Cliff Seal
+      .title Usability, Groupthink, and Authority: Rethinking UX
+      %span.expand [+]
+      %span.contract [–]
+      .description
+        %p In a perfect world, we would all be able to design and build applications by simply following best practices; creating intuitive, beautiful interfaces would be as easy as implementing "10 Usability Heuristics" and using logic to fill in the gaps. But, it's never that simple, is it?
+        %p We tend to think of usability as a utopian 'middle ground' that serves the average user so well that we must always strive for it first. In reality, though, it's more like one corner of a triangle, accompanied by two very interesting psychological ideas: groupthink and authority.
+        %p Backed by data and studies, I'll show you how groupthink can alter the way your users think about and interact with your application—both for better and for worse (see: mob mentality). As well, we'll discuss the role that trust and authority play by looking at ways you can combat groupthink, and even use it to your advantage!
+        %p We can create better experiences by understanding the dynamics of our users' community—not just an individual user's persona.
+
+  .segment
+    %h3.time
+      05:00pm
+    .blurb
+      %a{:href=>"#eric"}
+        %h3 Eric Suzanne
+      .title Show Your Work & Share Your Toys
+      %span.expand [+]
+      %span.contract [–]
+      .description
+        %p The web is littered with Ikea-style CSS frameworks and opinionated lowest-common-denominator web design tools. But pre-processors like Sass have opened the door for more flexible toolkits, and a thriving open-source community. You don't need to be a "ninja" with 3 million followers and your own clearfix to contribute. You don't even need a clever new idea — just a willingness to share, interact, and learn. Showing and sharing can help your code and your career.
+        %p We'll talk about the complete process of building and maintaining open-source Sass extensions. From concept to documentation, testing, licensing, releasing, and contributing to other projects.
+  .segment.party
     %h3.time
       06:00pm
     .blurb

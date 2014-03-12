@@ -1,13 +1,33 @@
 .schedule {
   .segment {
     margin-bottom: 20px;
+    &.lunch, &.break {
+      opacity: 0.6;
+    }
+    &.party h3 {
+      color: $hopbush;
+    }
   }
-  .time {
+  h3.time {
     float: left;
     color: $pale-sky;
     margin-right: 30px;
+    display: inline-block;
   }
   .blurb {
     display: inline-block;
+    width: 70%;
+    > .title {
+      font-style: italic;
+      margin-top: 10px;
+      display: inline-block;
+    }
+  }
+  .expand, .contract {
+    margin-left: 12px;
+    color: $hopbush;
+    cursor: pointer;
+    position: relative;
+    top: -1px;
   }
 }
