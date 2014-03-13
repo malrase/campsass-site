@@ -17,10 +17,16 @@
   .blurb {
     display: inline-block;
     width: 70%;
+    @media screen and (max-width: $mid-break) {
+      width: 100%;
+    }
     > .title {
       font-style: italic;
       margin-top: 10px;
       display: inline-block;
+      @media screen and (max-width: $mid-break) {
+        width: 90%;
+      }
     }
   }
   .expand, .contract {
@@ -29,5 +35,8 @@
     cursor: pointer;
     position: relative;
     top: -1px;
+    @media screen and (max-width: $mid-break) {
+      margin-left: 0px;
+    }
   }
 }
