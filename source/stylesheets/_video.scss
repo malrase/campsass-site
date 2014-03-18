@@ -1,3 +1,19 @@
 .video {
-  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+
+  .player-wrapper {
+    height: 0;
+    margin: 0 auto;
+    padding-bottom: 56.25%; /* 16:9 */
+    position: relative;
+
+    iframe {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
 }
