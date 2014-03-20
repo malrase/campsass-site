@@ -9,6 +9,10 @@
     }
     &.spiel {
       margin-bottom: 10px;
+      margin-top: 5%;
+      @media screen and (max-width: $large-break) {
+        margin-top: 0px;
+      }
     }
     .highlight {
       font-weight: bold;
