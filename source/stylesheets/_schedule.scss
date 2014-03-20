@@ -1,11 +1,26 @@
-.schedule {
+.section.schedule {
+  @media screen and (max-width: $large-break) {
+    margin: 10px 0px;
+  }
+  h2 {
+    margin-left: 5px;
+  }
   .segment {
-    margin-bottom: 20px;
-    &.lunch, &.break {
-      opacity: 0.6;
+    padding: 15px 15px 10px;
+    @media screen and (max-width: $mid-break) {
+      padding: 15px 15px 0;
     }
-    &.party h3 {
-      color: $hopbush;
+    &.lunch, &.break {
+      padding: 10px 15px;
+      background-color: lighten($hopbush, 30%);
+      background-image: repeating-linear-gradient(315deg, transparent, transparent 35px, lighten($hopbush, 35%) 35px, lighten($hopbush, 35%) 70px); 
+    }
+    &.party {
+      background-color: lighten($nebula, 5%);
+      background-image: repeating-linear-gradient(315deg, transparent, transparent 35px, lighten($nebula, 10%) 35px, lighten($nebula, 10%) 70px); 
+      h3 {
+        color: $hopbush;
+      }
     }
   }
   h3.time {
@@ -18,7 +33,7 @@
     display: inline-block;
     width: 70%;
     @media screen and (max-width: $mid-break) {
-      width: 100%;
+      width: 60%;
     }
     > .title {
       font-style: italic;
@@ -26,6 +41,12 @@
       display: inline-block;
       @media screen and (max-width: $mid-break) {
         width: 90%;
+        font-size: 12px;
+      }
+    }
+    .description {
+      @media screen and (max-width: $mid-break) {
+        font-size: 12px;
       }
     }
   }
@@ -37,6 +58,8 @@
     top: -1px;
     @media screen and (max-width: $mid-break) {
       margin-left: 0px;
+      float: right;
+      top: -18px;
     }
   }
 }
