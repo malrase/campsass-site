@@ -40,6 +40,7 @@ a {
   &.ev {
     background: $patina;
     box-shadow: $regent-grey 0px 1px 1px;
+    color: $white;
     h2, h3, .bio {
       color: $white;
     }
@@ -54,10 +55,19 @@ a {
   @media screen and (max-width: $large-break) {
     margin: 10px 30px;
   }
-  // width: 500px;
-  // @media screen and (max-width: $small-break) {
-  //   width: 300px;
-  // }
+}
+
+.alert {
+  background: $iron;
+  color: $regent-grey;
+  text-align: center;
+  padding: 10px;
+  a {
+    color: $hopbush;
+    &:hover {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+    }
+  }
 }
 
 .coc .code_modification {

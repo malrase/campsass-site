@@ -12,18 +12,39 @@ header {
   box-shadow: $venus 0px 1px 1px;
   padding-top: 10px;
   .logo {
-    // height: 200px;
-    // width: 200px;
     background: $hopbush;
     color: white;
     font-weight: bold;
     margin: 0px auto;
-    padding: 20px 0 40px;
+    padding: 20px 0;
     font-family: "Helvetica", sans-serif;
     display: inline-block;
     @media screen and (max-width: $large-break) {
-      padding: 0 0 40px;
+      padding: 0 0 20px;
     }
+  }
+  .name {
+    font-size: 36px;
+    a {
+      color: $white;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  .campfire {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    @media screen and (max-width: $large-break) {
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+header.index {
+  .logo {
+    padding: 20px 0 40px;
   }
   .name {
     .top {
