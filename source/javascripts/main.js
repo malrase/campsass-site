@@ -1,14 +1,9 @@
 $(document).ready(function () {
-  $(".description").hide();
+  $(".content").hide();
   $(".contract").hide();
-  $(".expand").on("click", function() {
-    $(this).toggle();
-    $(this).next("span").toggle();
+  $(".button").on("click", function() {
     $(this).nextAll("div").toggle();
-  });
-  $(".contract").on("click", function() {
-    $(this).toggle();
-    $(this).prev("span").toggle();
-    $(this).next("div").toggle();
+    $(".expand", this).toggle();
+    $(".contract", this).toggle();
   });
 });

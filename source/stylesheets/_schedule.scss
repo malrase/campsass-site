@@ -1,3 +1,7 @@
+// Width that the time takes up – this amount
+// needs indenting for the schedule
+$time-width: 109px;
+
 .section.schedule {
   @media screen and (max-width: $large-break) {
     margin: 10px 0px;
@@ -8,7 +12,7 @@
   .segment {
     padding: 15px 15px 10px;
     @media screen and (max-width: $mid-break) {
-      padding: 15px 15px 0;
+      padding: 15px 15px 10px;
     }
     &.lunch, &.break {
       padding: 10px 15px;
@@ -23,31 +27,32 @@
       }
     }
   }
+  .button {
+    cursor: pointer;
+  }
   h3.time {
     float: left;
     color: $pale-sky;
     margin-right: 30px;
     display: inline-block;
   }
-  .blurb {
+  h3.speaker {
+    margin-left: $time-width;
+  }
+  .title {
+    font-style: italic;
+    margin-top: 10px;
     display: inline-block;
-    width: 70%;
+    margin-left: $time-width;
     @media screen and (max-width: $mid-break) {
-      width: 60%;
+      width: 50%;
+      font-size: 12px;
     }
-    > .title {
-      font-style: italic;
-      margin-top: 10px;
-      display: inline-block;
-      @media screen and (max-width: $mid-break) {
-        width: 90%;
-        font-size: 12px;
-      }
-    }
-    .description {
-      @media screen and (max-width: $mid-break) {
-        font-size: 12px;
-      }
+  }
+  .description {
+    margin-left: $time-width;
+    @media screen and (max-width: $mid-break) {
+      font-size: 12px;
     }
   }
   .expand, .contract {
