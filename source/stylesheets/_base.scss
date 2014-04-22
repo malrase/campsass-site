@@ -74,3 +74,42 @@ a {
   font-size: 12px;
   margin-top: -15px;
 }
+
+
+// Buttons
+
+.button {
+  -webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.125);
+  -moz-box-shadow: 0 2px 1px rgba(0,0,0,0.125);
+  box-shadow: 0 2px 1px rgba(0,0,0,0.125);
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  text-align: center;
+  border-style: solid;
+  border-width: 0.0625em;
+  padding: 0.6875em;
+  display: block;
+  border-radius: 0.25em;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.primary.button {
+  background-color: $hopbush;
+  border-color: darken($hopbush, 5);
+  &,
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active,
+  &.active { color: $white; }
+
+  &:hover,
+  &:focus,
+  &:active
+  &.active { background-color: darken($hopbush, 8%); }
+}
+
+
+
