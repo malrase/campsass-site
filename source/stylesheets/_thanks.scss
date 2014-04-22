@@ -13,12 +13,21 @@
   }
   .subscribe {
     margin: 0 auto;
-    width: 380px;
-    display: -webkit-box;
+    width: 280px;
+  }
+  .mc-field-group {
+    display: inline-block;
   }
   #mce-EMAIL {
-    margin-right: 20px;
     margin-top: 8px;
     font-size: 19px;
+    float: left;
+  }
+  .clear {
+    width: 100%;
+    text-align: center;
+    > input {
+      display: inline-block;
+    }
   }
 }
