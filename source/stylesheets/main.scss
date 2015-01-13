@@ -6,22 +6,23 @@ $break: 770px;
 $large-break: 850px;
 $super-large-break: 1070px;
 
-@import "toast";
+@import "globals/toast";
 
-@import "color";
-@import "base";
+@import "globals/color";
+@import "globals/mixins";
+@import "globals/base";
 
-@import "header";
-@import "footer";
+@import "sections/header";
+@import "sections/footer";
 
-@import "what";
-@import "speakers";
-@import "venue";
-@import "tickets";
-@import "sponsors";
-@import "schedule";
-@import "video";
+@import "sections/what";
+@import "sections/speakers";
+@import "sections/venue";
+@import "sections/tickets";
+@import "sections/sponsors";
+@import "sections/schedule";
+@import "sections/video";
 
-@import "thanks";
+@import "sections/thanks";
 
-
+@import "sections/subscribe";

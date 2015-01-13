@@ -1,0 +1,25 @@
+.panel.coming-soon {
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  margin: auto;
+  max-width: 500px;
+  @media screen and (max-width: $small-break) {
+    margin: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+#mce-EMAIL {
+  box-sizing: border-box;
+  font-size: 19px;
+  float: left;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.mc-field-group {
+  display: inline-block;
+  width: 100%;
+}

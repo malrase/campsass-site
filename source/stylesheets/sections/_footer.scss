@@ -4,6 +4,9 @@ footer {
   color: $iron;
   padding: 15px;
   font-size: 12px;
+  .links {
+    margin-bottom: 20px;
+  }
   .links > span {
     margin: 33px;
   }

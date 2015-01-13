@@ -17,6 +17,7 @@ body {
 }
 
 a {
+  @include transition();
   color: $bouquet;
   text-decoration: none;
   &:visited {
@@ -110,6 +111,3 @@ a {
   &:active
   &.active { background-color: darken($hopbush, 8%); }
 }
-
-
-
