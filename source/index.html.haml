@@ -1,9 +1,18 @@
 =partial "index_header"
 
-.panel.coming-soon
-  %p Stay tuned, more information is coming soon.
+.panel.what
+  =partial "what"
+.panel.video
+  =partial "video"
+.panel.speakers
+  =partial "speakers"
+.panel.venue.ev
+  =partial "venue"
+.panel.tickets
+  =partial "tickets"
 
-  %p In the meantime, sign up for updates.
+
+  %h1 Sign up for updates!
   .subscribe.mc_embed_signup
     %link{:href=>"//cdn-images.mailchimp.com/embedcode/slim-081711.css", :rel=>"stylesheet", :type=>"text/css"}
     %form{:action=>"http://catlinsoftware.us3.list-manage.com/subscribe/post?u=f1d50be4cecfc8844afa5879b&amp;id=6f2fa192f9", :method=>"post", :id=>"mc-embedded-subscribe-form", :name=>"mc-embedded-subscribe-form", :class=>"validate", :target=>"_blank", :novalidate=>"novalidate"}
