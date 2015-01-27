@@ -10,8 +10,7 @@
   =partial "venue"
 .panel.tickets
   =partial "tickets"
-
-.panel.venue
+.panel.venue.ev
   .section
     %h2 Sign up for updates!
     .subscribe.mc_embed_signup
@@ -28,3 +27,6 @@
           %input{:type=>"text", :name=>"b_f1d50be4cecfc8844afa5879b_6f2fa192f9", :value=>""}
         .clear
           %input.button.primary#mc-embedded-subscribe{:type=>"submit", :value=>"Subscribe", :name=>"subscribe"}
+
+.panel.coc
+  =partial "coc"
