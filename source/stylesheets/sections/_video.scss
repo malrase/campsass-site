@@ -4,7 +4,7 @@
   color: #FFF;
   .unit.one-of-two {
     p { margin: 10px 30px; }
-    video {
+    iframe {
       width: 100%;
       @media screen and (min-width: $large-break) {
         width: 95%;
