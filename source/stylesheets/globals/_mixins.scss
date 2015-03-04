@@ -1,4 +1,10 @@
 @mixin transition($time: 0.5s, $type: all) {
-  -webkit-transition: $type $time;
-  transition: $type $time;
+  -webkit-transition: $type $time ease;
+  transition: $type $time ease;
+}
+
+@mixin rotate($deg) {
+  -webkit-transform: rotate($deg);
+  -o-transform: rotate($deg);
+  transform: rotate($deg);
 }
