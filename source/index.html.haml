@@ -1,37 +1,22 @@
 =partial "index_header"
-.alert
-  Now you can find out when everyone is speaking: the #{link_to "schedule", "/schedule"} is up!
 
-.panel.what
-  =partial "what"
-.panel.video
-  =partial "video"
-.panel.speakers
-  =partial "speakers"
-.panel.venue.ev
-  =partial "venue"
-.panel.tickets
-  =partial "tickets"
-.panel.venue.ev
-  .section
-    %h2 Sign up for updates!
-    .subscribe.mc_embed_signup
-      %link{:href=>"//cdn-images.mailchimp.com/embedcode/slim-081711.css", :rel=>"stylesheet", :type=>"text/css"}
-      %form{:action=>"http://catlinsoftware.us3.list-manage.com/subscribe/post?u=f1d50be4cecfc8844afa5879b&amp;id=6f2fa192f9", :method=>"post", :id=>"mc-embedded-subscribe-form", :name=>"mc-embedded-subscribe-form", :class=>"validate", :target=>"_blank", :novalidate=>"novalidate"}
-        .mc-field-group
-          %label{:for=>"mce-EMAIL"}
-          %input.required.email#mce-EMAIL{:type=>"email", :value=>"", :name=>"EMAIL", :placeholder=>"Enter e-mail"}
-        #mce-responses.clear
-          .response#mce-error-response{:style=>"display:none"}
-          .response#mce-success-response{:style=>"display:none"}
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        %div{:style=>"position: absolute; left: -5000px;"}
-          %input{:type=>"text", :name=>"b_f1d50be4cecfc8844afa5879b_6f2fa192f9", :value=>""}
-        .clear
-          %input.button.primary#mc-embedded-subscribe{:type=>"submit", :value=>"Subscribe", :name=>"subscribe"}
 
-.panel.coc
-  =partial "coc"
+.panel.thankyou
+  %p
+    Thank you, thank you, thank you!
 
-.panel.sponsors.ev
-  =partial "sponsors"
+  %p
+    Camp Sass was a blast. We had so much fun meeting everyone and learning from our great speakers. This tweet from Hampton sums it up best:
+
+  %blockquote{class: "twitter-tweet", lang: "en"}
+    %p
+      This year's #{link_to "@CampSass", "https://twitter.com/CampSass"} was everything I could have hoped for. Intimate, friendly, and educational. Met so many great people!
+    &mdash; Hampton (@hcatlin) #{link_to "April 5, 2015", "https://twitter.com/hcatlin/status/584695869498335233"}
+  %script{async: "async", src: "//platform.twitter.com/widgets.js", charset: "utf-8"}
+
+  %p
+    Especially, thank you to #{link_to "9Labs", "http://9labs.io/"} and Jay, who helped put the conference together. Atlanta was exceedingly welcoming and we thoroughly enjoyed experiencing the city.
+  %p
+    Can't get enough Sass? Check out #{link_to "SassConf", "http://sassconf.com/"}, coming up in Fall in Austin. Or, to get updates about Camp Sass, follow us on #{link_to "twitter", "https://twitter.com/campsass"}.
+
+  %p – Hampton and Michael
